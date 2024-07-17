@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.flex-container{
+    display: flex;
+    justify-content: space-around;
+    background: #FFCD9E;
+    align-items: center;
+    text-align: start;
+
+}
+.left h2{
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 54px;
+    text-align: left;
+    
+}
+.left p{
+    font-family: Inter;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+text-align: left;
+
+}
+.left .single-para{
+font-family: Inter;
+font-size: 18px;
+font-weight: 800;
+line-height: 32px;
+text-align: left;
+}
+.left .last-para{
+font-size: 16px;
+font-weight: 500;
+line-height: 25.6px;
+color: white;
+
+}
+input{
+    width: 300px;
+height: 44px;
+border-radius: 8px;
+text-align:center;
+font-size: 14px;
+border: 2px solid black;
+}
+
+button{
+width: 170px;
+height: 44px;
+border-radius: 8px;
+opacity: 0px;
+background-color: black;
+color: white;
+font-size: 14px;
+font-weight: 800;
+border: 2px solid black;
+
+}
+.left h2 ,p{
+    margin: 20px;
+}
+
+
+/* footer */
+.footer {
+    display: flex;
+    justify-content: space-between;
+    background-color: black;
+    color: white;
+    height: 300px;
+
+}
+ul li{
+    list-style: none;
+    margin-top: 20px;
+
+} 
+
+.footer .left,.right{
+    margin: 80px;
+}
+  .fa-brands{
+    display: flex;
+    align-items: start;
+    justify-items: flex-end;
+    padding: 5px;
+    color: #FFCD9E;
+ }
+ @media  screen and (max-width: 600px)
+ {
+.flex-container{
+    display: flex;
+    flex-direction: column-reverse;
+    overflow: hidden;
+}
+input{
+    text-align: center;
+    margin: 5px;
+}
+button{
+    margin-left: 5px;
+    width: 300px;
+
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+height: auto;
+   text-align: center;
+   padding: 10px;
+
+}
+.footer .left ,.right{
+    height: auto;
+    margin: 10px;
+}
+ }
+    
