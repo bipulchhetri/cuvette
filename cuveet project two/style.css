@@ -1,0 +1,176 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+}
+.logo{
+    font-size: 30px;
+    font-style: italic;
+    font-weight: bold;
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    background-color: #6F6AF7;
+    color: white;
+    width: 100%;
+    position: fixed;
+    padding: 10px;
+    top: 0;
+
+}
+nav ul li {
+  display:inline;
+  margin: 10px;
+  font-size: 20px;
+    
+   
+
+}
+input{
+    padding: 7px;
+    border-radius: 5px;
+    border-style: none;
+}
+.fa-bars{
+    margin-left: 10px;
+    font-size: 25px;
+
+}
+
+  
+  .main{
+    display: grid;
+    grid-template-columns: max-content max-content max-content;;
+    gap: 10px;
+    margin-top: 100px;
+  }
+  .main img{
+    width: 300px;
+    height: 400px;
+  }
+  .main .right{
+        background-color: #E5D8FF;
+        width: 900px;
+  }
+  .right p{
+    margin: 15px;
+  }
+
+  /* questions cards */
+  .part-two{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 20px;
+    color: white ;
+    
+
+  }
+  .ques-one{
+    background-color: #929DFF;    ;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+  }
+  .ques-two{
+    background-color: #734CF2;    ;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+  }
+  .ques-three{
+    background-color: #D288FF;    ;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+  }.ques-four{
+    background-color: black;  
+    color: white  ;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-weight: bold;
+    box-shadow: 0px 5px 5px 0px rgba(122,116,122,1);
+  }
+
+  /* info box */
+  .infor{
+    display: flex;
+    justify-content: space-around;
+    background-color: #483EFF;
+  }
+  .button{
+    margin-top: 30px;
+  }
+  .info-btn-one{
+background-color: #BCE0F6;
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .button .info-btn{
+    background-color: rgb(241, 242, 242);
+    margin: 20px;
+    padding: 20px;
+    text-align: center;
+  }
+  .contact{
+    margin-top: 25px;
+    padding: 0px 70px 0px 70px;
+    background-color: white;
+    color: black;
+    width: 500px;
+  }
+  .contact h3{
+    margin-top: 30px;
+  }
+  .contact p{
+    margin: 20px;
+    font-size: 16px;
+  }
+  .btn{
+    float: right;
+    padding: 10px 20px 10px 20px;
+    font-size: 16px;
+    background-color: black;
+    color: white;
+    border: none;
+  }
+
+  /* social media */
+  .social-media {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    float: right;
+    margin: 5px;
+    justify-content: center;
+    
+}
+
+.social-media-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.social-media-item .fa-brands  {
+  font-size: 40px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+/* Help Icon */
+.help img{
+  width: 100px;
+}
