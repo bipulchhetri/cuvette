@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event</title>
+    <style>
+        .parent{
+            background-color: aqua;
+        }
+        .blue{
+            background-color: blue;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            margin: auto;
+        }
+        .pink{
+            background-color: pink;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            margin: auto;
+
+
+        }
+        .red
+        {
+            background-color: red;
+            height: 50px;
+            width: 100px;
+            text-align: center;
+            margin: auto;
+
+
+        }
+    </style>
+</head>
+<body>
+  <div class="parent">
+    <div class="blue">Blue</div>
+    <div class="pink">Pink</div>
+    <div class="red">Red</div>
+  </div>
+
+  <script>
+    const parent=document.getElementsByClassName('parent');
+    const blue=document.getElementsByClassName('blue')
+
+    parent.addEventListener('click', function(){
+console.log("parent click")
+blue.addEventListener('click', function(){
+    console.log("Blue click")
+    })
+  </script>
+</body>
+</html>
